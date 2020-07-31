@@ -1,12 +1,26 @@
 
 
+html{
 
+    background: black;
+}
 
 #main{
 
     background:#D8B5AE;
 }
 
-#tittle{
+
+#imge{
+  border-radius: 2em;
+}
+h1{
+ font-size: 3rem;
 
 }
+
+#tittle{
+  
+}
+
+
