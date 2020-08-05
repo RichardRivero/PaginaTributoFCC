@@ -1,26 +1,127 @@
 
 
 html{
-
-    background: black;
+       
 }
 
+body{
+  background-image: url(https://www.foro3d.com/attachments/154182d1586714567-muere-carl-macek-creador-de-robotech-valkyriepderobotech.jpg);
+}
 #main{
 
-    background:#D8B5AE;
+    background: #000000;;
 }
 
-
+.Titulo-prin{
+  position: center;
+  width: 75%;
+  background-color: rgb(206, 198, 198);
+  border: 10px 20px 20px 20px;
+  border-radius: 10px;
+}
 #imge{
   border-radius: 2em;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23); /* crea una sombra */
 }
 h1{
+  text-align: center;
  font-size: 3rem;
 
+}
+.texto_h{
+  text-align: center;
 }
 
 #tittle{
   
 }
 
+/* girlla de posicion en el centro*/
+.Cuerpo {
+  font-size: 1.5em;
+  min-height: 300px;
+  width: 100%;
+  background: rgb(252, 251, 251);
+  display: grid;
+  
+  grid-template-columns: 0.2fr;
+  grid-template-rows: 10px auto 1fr auto;
+  grid-gap: 10px;
+  grid-template-areas:
+  "caja1"
+  "caja2"
+  "caja3"
+  "caja4"
+  "caja5" 
+  "caja6";
+}
+@media (min-width: 500px){
+  .Cuerpo{
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+    "caja1 caja1"
+    "caja2 caja2"
+    "caja3 caja4"
+    "caja5 caja6";
+  }
+}    /* es cuandoeltamaño de la pantalla es mas pequeño*/
+
+@media (min-width: 400px){
+  .container{
+    grid-template-areas:
+    "caja1 caja2"
+    "caja3 caja4"
+    "caja5 caja6";
+  }
+}
+/* MODULOS CENTRALES */
+.c-1{
+
+  grid-area: "caja1";
+  box-shadow: #ff00ff;
+  background: rgb(190, 57, 57);
+  border: gray;
+  border-radius: 5px;
+      margin: 10px 5px;
+      padding: 4px;
+}
+.c-2{
+  grid-area: "caja2";
+  background: blue;
+  border-radius: 5px;
+      margin: 10px 5px;
+      padding: 4px;
+}
+.c-3{
+  grid-area: "caja3";
+  background: green;
+  border-radius: 5px;
+      margin: 10px 5px;
+      padding: 4px;
+}
+.c-4{
+  grid-area: "caja4";
+  background:  yellow;
+  border: gray;
+  border-radius: 5px;
+      margin: 10px 5px;
+      padding: 4px;
+}
+.c-5{
+  grid-area: "caja5";
+  background: gray;
+  border: gray;
+  border-radius: 5px;
+      margin: 10px 5px;
+      padding: 4px;
+
+}
+.c-6{
+  grid-area: "caja6";
+ background: magenta;
+ border-radius: 5px;
+      margin: 10px 5px;
+      padding: 4px;
+} 
 
