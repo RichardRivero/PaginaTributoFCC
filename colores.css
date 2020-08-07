@@ -1,52 +1,63 @@
 
-
-html{
-       
-}
-
 body{
-  background-image: url(https://www.foro3d.com/attachments/154182d1586714567-muere-carl-macek-creador-de-robotech-valkyriepderobotech.jpg);
-}
-#main{
-
-    background: #000000;;
+ background: linear-gradient(white,grey,black);
+ /*background-image: url(https://www.foro3d.com/attachments/154182d1586714567-muere-carl-macek-creador-de-robotech-valkyriepderobotech.jpg) ;
+  background-size: cover;  */
+  
 }
 
 .Titulo-prin{
   position: center;
   width: 75%;
-  background-color: rgb(206, 198, 198);
+  background-color: rgba(25, 198, 198,0.25);
   border: 10px 20px 20px 20px;
   border-radius: 10px;
+  margin:auto;
 }
 #imge{
   border-radius: 2em;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23); /* crea una sombra */
 }
+
+#img-div{
+  position: relative;
+  margin: 50px 60% 0 40%;
+}
+
 h1{
   text-align: center;
- font-size: 3rem;
+  font-size: 3rem;
 
 }
 .texto_h{
   text-align: center;
 }
-
-#tittle{
+footer{
+ position:relative;
+ margin: auto;
+  background: gray;
+  white-space: 50px;
   
 }
-
+.valkyria{
+filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));/*efecto de contorno de sombra en la imagen */
+width: 10%;
+height: 10%;
+position: relative;
+left: 200px;
+}
 /* girlla de posicion en el centro*/
 .Cuerpo {
   font-size: 1.5em;
-  min-height: 300px;
+  min-height: 100px;
   width: 100%;
   background: rgb(252, 251, 251);
   display: grid;
+  margin: auto;
   
   grid-template-columns: 0.2fr;
-  grid-template-rows: 10px auto 1fr auto;
-  grid-gap: 10px;
+  grid-template-rows: 1px auto 1fr auto;
+  grid-gap: 0px;
   grid-template-areas:
   "caja1"
   "caja2"
@@ -54,7 +65,7 @@ h1{
   "caja4"
   "caja5" 
   "caja6";
-}
+}/*
 @media (min-width: 500px){
   .Cuerpo{
     grid-template-columns: auto 1fr;
@@ -68,13 +79,13 @@ h1{
 }    /* es cuandoeltamaño de la pantalla es mas pequeño*/
 
 @media (min-width: 400px){
-  .container{
+  .Cuerpo{
     grid-template-areas:
     "caja1 caja2"
     "caja3 caja4"
     "caja5 caja6";
   }
-}
+}*/
 /* MODULOS CENTRALES */
 .c-1{
 
