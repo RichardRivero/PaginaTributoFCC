@@ -7,21 +7,23 @@ body{
 }
 
 .Titulo-prin{
-  position: center;
+  position:top;
   width: 75%;
   background-color: rgba(25, 198, 198,0.25);
-  border: 10px 20px 20px 20px;
-  border-radius: 10px;
   margin:auto;
-}
-#imge{
-  border-radius: 2em;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23); /* crea una sombra */
 }
 
 #img-div{
+  background: rgba(255,255,255,1);
   position: relative;
-  margin: 50px 60% 0 40%;
+  padding: 1em 1em 1em 1em;
+  /*margin: 50% 50% 50% 50%;*/
+  }
+
+#image{
+  border-radius: 2em;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23); /* crea una sombra */
+  
 }
 
 h1{
@@ -29,8 +31,13 @@ h1{
   font-size: 3rem;
 
 }
-.texto_h{
-  text-align: center;
+
+.parrafos{
+  font: outline;
+  font-size: medium;
+  font-weight: 100;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #F08080;
 }
 footer{
  position:relative;
@@ -39,6 +46,7 @@ footer{
   white-space: 50px;
   
 }
+
 .valkyria{
 filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));/*efecto de contorno de sombra en la imagen */
 width: 10%;
@@ -46,6 +54,9 @@ height: 10%;
 position: relative;
 left: 200px;
 }
+
+
+
 /* girlla de posicion en el centro*/
 .Cuerpo {
   font-size: 1.5em;
