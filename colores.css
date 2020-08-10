@@ -40,6 +40,7 @@ p{
   }
 
 #image{
+  max-width:100%;
   display: block;  /*prueba --------------------------- */
   border-radius: 2em;
   width: 100%;          /*la imagen se buelve responsiva*/
