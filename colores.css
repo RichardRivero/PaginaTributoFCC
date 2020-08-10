@@ -1,8 +1,22 @@
 
 body{
  background: linear-gradient(white,grey,white);
- /*background-image: url(https://www.foro3d.com/attachments/154182d1586714567-muere-carl-macek-creador-de-robotech-valkyriepderobotech.jpg) ;
-  background-size: cover;  */
+ background-image: url(http://drive.google.com/uc?export=view&id=12PxAhTz_NfTbG8L-n8QEvXVtfWd8Tc9U);
+ background-size: cover; /*  este opcion eztira la imagen para que cubra toda la pantalla*/
+}
+
+h1{
+  text-align: center;
+  font-size: 3rem;
+  font-family: fantasy;
+}
+
+.Titulo-prin{
+
+  width: 100%;
+  background:linear-gradient( red,grey);
+  margin:-1px 0px 0px 0px;
+  padding-top: 5px;
 }
 
 h2{
@@ -12,26 +26,14 @@ h2{
 p{
   text-align: center;
 }
+
 .imagenes{  /*clase imagenes para todas las imagenes en el documentos */
   filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));/*efecto de contorno de sombra en la imagen */
 }
 
-
-.parrafos{
-  background-color: red ;
-  width: 75%;
-  height: auto;
-  margin: 0% 25% 0% 25%;
-}
-
-.Titulo-prin{
-  width: 75%;
-  background:linear-gradient( red,grey,black);
-  margin:auto;
-}
-
 #img-div{
-  background: rgba(255,255,255,1);
+  background: rgba(255,255,255,0.9);
+  border-radius: 10px;
   position: relative;
   margin: 0% 15% 0% 15%;
   padding: 1em 1em 1em 1em;
@@ -46,24 +48,39 @@ p{
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23); /* crea una sombra */
 }
 
-h1{
-  text-align: center;
-  font-size: 3rem;
-
+.parrafos{
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 70%;
+  height: auto;
+  margin: auto;
 }
 
 footer{
- position:relative;
- margin: auto;
-  background: gray;
+  width:auto ;
+  position:relative;
+  margin: auto;
+  margin-top: 10px;
+  background:gray;
   white-space: 50px;
+  padding: 10px;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+/*
 .valkyria{
-filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));/*efecto de contorno de sombra en la imagen */
+filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));efecto de contorno de sombra en la imagen 
 width: 10%;
 height: 10%;
 position: relative;
 left: 200px;
+}*/
+
+a:hover{
+  color: rgba(24, 212, 150, 0.7);
 }
 
+#articulo{
+  width: 30px;
+  height: auto;
+}
