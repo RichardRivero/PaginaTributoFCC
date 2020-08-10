@@ -31,22 +31,18 @@ p{
 }
 
 #img-div{
-
   background: rgba(255,255,255,1);
   position: relative;
   margin: 0% 15% 0% 15%;
   padding: 1em 1em 1em 1em;
-  /*margin: 50% 50% 50% 50%;*/
   }
 
 #image{
-  max-width:100%;
+  max-width:100%;  /* ajuste del tamaño maximo de la imagen */
   display: block;  /*prueba --------------------------- */
   border-radius: 2em;
   width: 100%;          /*la imagen se buelve responsiva*/
   height: auto;         /* se ajusta al atamaño*/
-  /*max-width:100%;*/
-  /*min-width: 100%;*/
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23); /* crea una sombra */
 }
 
@@ -56,13 +52,11 @@ h1{
 
 }
 
-
 footer{
  position:relative;
  margin: auto;
   background: gray;
   white-space: 50px;
-  
 }
 
 .valkyria{
