@@ -5,14 +5,22 @@ body{
  background-size: cover; /*  este opcion eztira la imagen para que cubra toda la pantalla*/
 }
 
+figcaption{
+  padding-top: 5px;
+}
+
 h1{
   text-align: center;
   font-size: 3rem;
   font-family: fantasy;
 }
 
-.Titulo-prin{
+li{
+  font-size: 20px;
+  padding: 5px;
+}
 
+.Titulo-prin{
   width: 100%;
   background:linear-gradient( red,grey);
   margin:-1px 0px 0px 0px;
@@ -21,9 +29,13 @@ h1{
 
 h2{
    text-align: center;
+   font-size: 30px;
 }
 
 p{
+  padding: 2%;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: center;
 }
 
@@ -34,7 +46,7 @@ p{
 #img-div{
   background: rgba(255,255,255,0.9);
   border-radius: 10px;
-  position: relative;
+  /*position: relative;*/
   margin: 0% 15% 0% 15%;
   padding: 1em 1em 1em 1em;
   }
@@ -49,10 +61,12 @@ p{
 }
 
 .parrafos{
-  background-color: rgba(0, 0, 0, 0.7);
-  width: 70%;
+  border-radius: 2em;
+  background-color:rgba(255,255,255,0.9);
+  width: 60%;
   height: auto;
-  margin: auto;
+  margin: 5% 10% 10% 10%;
+  padding: 5% 10% 10% 10%;
 }
 
 footer{
@@ -67,20 +81,16 @@ footer{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-/*
-.valkyria{
-filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));efecto de contorno de sombra en la imagen 
-width: 10%;
-height: 10%;
-position: relative;
-left: 200px;
-}*/
-
 a:hover{
   color: rgba(24, 212, 150, 0.7);
 }
 
 #articulo{
+  font-size: 20px;
   width: 30px;
   height: auto;
+}
+
+#articulo p{
+  text-align: justify;
 }
